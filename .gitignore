@@ -1,0 +1,89 @@
+# ── Python / FastAPI ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# mypy / ruff / pyright
+.mypy_cache/
+.ruff_cache/
+.pyright/
+pyrightconfig.json
+
+# Logs
+*.log
+logs/
+
+# ── Next.js / Node ────────────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+.cache/
+
+# Next.js build output
+.next/
+next-env.d.ts
+
+# Package manager locks (keep one — delete whichever you don't use)
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
+
+# Turbopack / Turborepo
+.turbo/
+
+# Vercel
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+
+# ── General ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+# OS
+Desktop.ini
